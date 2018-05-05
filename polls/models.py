@@ -3,6 +3,7 @@ import datetime
 from django.db import models # метод привязки до БД
 from django.utils import timezone
 
+# МОДЕЛІ В БД
 
 class Question(models.Model):
     # обєкти викристовуються як в БД так і в подальшому коді(описуються тип даних і параметри полів)
