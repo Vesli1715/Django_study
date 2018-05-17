@@ -3,6 +3,7 @@ from django.conf.urls import  url
 
 from  . import views
 # пошук views(відображень) по url через регулярні вирази
+
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     # ex: /polls/5/
